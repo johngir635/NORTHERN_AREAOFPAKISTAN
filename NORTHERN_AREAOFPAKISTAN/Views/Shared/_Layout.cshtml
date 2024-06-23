@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - NORTHERN_AREAOFPAKISTAN</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="~/css/style.css" />
+    <link rel="stylesheet" href="~/css/responsive.css" />
+    <link rel="apple-touch-icon"
+          sizes="180x180"
+          href="~/img/apple-touch-icon.png" />
+    <link rel="icon"
+          type="~/image/png"
+          sizes="32x32"
+          href="~/img/favicon-32x32.png" />
+    <link rel="icon"
+          type="~/image/png"
+          sizes="16x16"
+          href="~/img/favicon-16x16.png" />
+    <link rel="manifest" href="~/site.webmanifest" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/NORTHERN_AREAOFPAKISTAN.styles.css" asp-append-version="true" />
+    <header>
+        @Html.Partial("~/views/shared/navbar.cshtml")    
+    </header>
+</head>
+<body>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="~/js/script.js"></script>
+    <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
+    <script src="https://mediafiles.botpress.cloud/d5c6bf5e-e6ad-45d6-bd8c-e4ee05d6f509/webchat/config.js " defer></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,209 @@
+body {
+   margin: 5px;
+   padding:0;
+    text-decoration:none ;
+    box-sizing: border-box;
+}
+
+/* img {
+    width: 100%;
+    height: 450px;
+} */
+
+h1 {
+    font-style: unset;
+    color: #ca2c0c;
+    text-align: center;
+    margin: 5px;
+}
+
+/* a:link {
+    font-size: larger;
+    color: rgb(68, 126, 6);
+    text-decoration: underline;
+
+}
+
+a:visited {
+    font-size: larger;
+    color: rgb(26, 134, 188);
+}
+
+a:hover {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(240, 113, 59);
+    background-color: rgb(127, 183, 236);
+} */
+
+/* MARQUEE {
+    color: rgb(72, 0, 0);
+    background-color: rgb(255 242 230);
+    height: 20PX;
+
+} */
+
+p {
+    text-align: left;
+    font-size: 19px;
+}
+
+.r {
+    color: rgb(72, 0, 0);
+}
+
+.d {
+    float: left;
+    margin: 0px 15px 15px 0px;
+    width: 60%;
+}
+
+.about1 {
+    float: right;
+    margin: 0px 15px 15px 0px;
+    height:300px;
+    width: 38%;
+    
+}
+
+h2 {
+    text-align: center;
+    border-radius: 20px;
+    color: rgba(6, 134, 93, 0.831);
+    border: 2px solid white;
+    background-color: rgb(255 242 230);
+}
+
+#tour {
+    color: rgb(10, 9, 9);
+    text-decoration: solid;
+}
+
+/* .b{
+                    text-align: center;
+                    color:blue;
+                    
+                }
+                 */
+.hunza,
+.naran,
+.neelum,
+.swat,
+.skardu,
+.chitral{
+    padding: 0px;
+    margin:5px;
+    float: left;
+    
+
+}
+
+.hunza {
+    float: left;
+}
+
+.naran {
+    float: left;
+}
+
+.neelum {
+    float: left;
+}
+
+.swat {
+    float: left;
+}
+.skardu{
+    float:left;
+}
+.chitral{
+    float:left;
+}
+h4 {
+    text-decoration: underline;
+    font-size: 20px;
+    text-align: center;
+    padding: 5px;
+
+}
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-left:140px;
+    padding: 20px;
+    }
+th{
+    width: 70%;
+    text-align: center;
+    text-decoration: underline;
+}
+tr{
+    width: 50%;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#D8DFE9;
+    position: fixed;
+    top: 0px;
+    width:100% ;
+  }
+  li{
+    float: left;
+    width: auto;
+    height: auto;
+  }
+  li a, .dropbtn {
+    display: block;
+    color:#055e79;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-size: 25px;
+  }
+  li a:hover, dropdown:hover .dropbtn {
+    background-color: #871b05;
+    color:#fdfaf7
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(186, 113, 113, 0.2);
+    z-index: 1;
+  }
+  .dropdown-content a {
+    color: rgb(203, 134, 134);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {background-color: #b9db94;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+a:link {
+    font-size: larger;
+    
+    color: #226430d4;
+    text-decoration: none;
+
+}
+
+a:visited {
+    font-size: larger;
+    font : 22px;
+    color:#1a478b ;
+}
+
+  /* Murky Teal – #022831
+Blue Lagoon – #04566E
+Pastel Green – #689368
+Green Pear – #B4D330
+Blustery Blue – #D8DFE9 */

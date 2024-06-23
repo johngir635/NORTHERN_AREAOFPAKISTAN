@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        var i = 0;
+        var images = [];
+        ChangeImg();
+
+        //image list
+         images[0] = "image1.png";
+         images[1] = "image2.jpg";
+         images[2] = "image3.jpg";
+         images[3] = "image4.jpg";
+
+        // change image
+        function ChangeImg() 
+        {
+            document.slide.src = images[i];
+            if (i < (images.length - 1))
+            {
+                i++;
+            } else
+            {
+                i = 0;
+            }
+            setTimeout(ChangeImg(), 2000);
+        }
+         window.onload = ChangeImg();
+        </script>
+
+        <img src="image1.png" name="slide" width="400" height="200">
+        <img src="image2.jpg" name="slide" width="400" height="200">
+        <img src="image3.jpg" name="slide" width="400" height="200">
+        <img src="image4.jpg" name="slide" width="400" height="200">
+</body>
+</html>

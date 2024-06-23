@@ -1,0 +1,40 @@
+ h1{
+    text-align: center;
+ }
+ h2 {
+    color: #fdfffd;
+    text-align: center;
+    font-weight: bolder;
+    margin: auto;
+    padding: 20px;
+    font-size: 30px;
+    border: 1px solid white;
+    box-shadow: 3px 6px 9px#d6d2c1;
+    background-image: url("b1.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    opacity: .9;
+
+}
+
+p {
+    font-size: 20px;
+}
+
+.info .img56 {
+    float: right;
+}
+
+.info1 {
+    margin-top: 15px;
+    padding-top: 10px;
+}
+
+.info1 pre h3 {
+    color: #504b26;
+}
+
+.main h1 {
+    color: #614831;
+    font-weight: bolder;
+}

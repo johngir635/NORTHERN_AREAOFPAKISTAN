@@ -1,0 +1,10 @@
+p {
+    border: 2px solid black;
+    border-style:none;
+    text-align: left;
+    padding: 15px;
+    font-size: 19px;
+}
+.tours .para1 h1{
+    padding-bottom: 2px;
+} 

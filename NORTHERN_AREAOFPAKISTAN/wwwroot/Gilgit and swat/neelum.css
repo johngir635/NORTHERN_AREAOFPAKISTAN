@@ -1,0 +1,42 @@
+h2 {
+    color: #e68d18;
+    text-align: center;
+    font-weight: bolder;
+    margin: auto;
+    padding: 20px;
+    font-size: 30px;
+    border: 1px solid white;
+    box-shadow: 3px 6px 9px#cbd2c4;
+    background-image: url("s8.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    opacity: .9;
+
+}
+
+p {
+    font-size: 20px;
+}
+
+.info .img78 {
+    float: right;
+}
+
+.info1 {
+    margin-top: 15px;
+    padding-top: 10px;
+}
+
+.info1 pre h3 {
+    color: #da8744;
+}
+
+.main h1 {
+    color: #e19238;
+    font-weight: bolder;
+}
+.info1  img{
+    padding-top: 20px;
+    height:300px;
+    width:600px;
+}

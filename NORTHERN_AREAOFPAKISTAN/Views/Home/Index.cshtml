@@ -1,0 +1,250 @@
+﻿
+<section class="events" id="events">
+    <div class="container">
+        <div class="title">
+            <h1 class="dark">Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <article class="card col">
+                <img class="card-img" src="~/img/a3.jpg" />
+                <h4 class="dark">Kalash Festival</h4>
+                <p class="font-color">
+                    The Kalash Festival is a vibrant celebration of the indigenous Kalash culture,
+                    featuring lively dances, traditional music, and colorful rituals in Pakistan's Northern Areas.
+                </p>
+                <a href="../AreaDetails/Index" class="ctn">All Details</a>
+            </article>
+            <article class="card col">
+                <img src="~/img/a4.jpg" />
+                <h4 class="dark">Shandur Polo Festival </h4>
+                <p class="font-color">
+
+                    The Shandur Polo Festival is an annual event held at the world's highest polo ground in Shandur, Pakistan,
+                    showcasing thrilling polo matches.
+                </p>
+                <a href="../AreaDetails/Shandur" class="ctn">All Details</a>
+            </article>
+            <article class="card col">
+                <img src="~/img/a8.jpg" />
+                <h4 class="dark">Boroghol Festival</h4>
+                <p class="font-color">
+                    The Broghil Festival is an annual cultural event celebrated in the remote Broghil Valley of Pakistan,
+                    highlighting traditional music, dance, and sports.
+                </p>
+                <a href="../AreaDetails/Borogil" class="ctn">All Details</a>
+            </article>
+        </div>
+    </div>
+</section>
+<!--Events-->
+<!--Explore-->
+<section class="explore" id="explore">
+    <div class="explore-content">
+        <h1>EXPLORE THE NORTHERN AREAS</h1>
+        <div class="line"></div>
+        <h5 style="color: black;">
+            “Travel makes one modest. You see what a tiny place you
+            occupy in the world.”– Gustav Flaubert <br />Exploring will
+            make you want to pack your bag, book that ticket and jet
+            away.
+        </h5>
+        <a href="../AreaDetails/ExploreMore" class="ctn">Explore more</a>
+    </div>
+</section>
+<!--Explore-->
+<!--tours-->
+<section class="tours" id="tours">
+    <div class="container row">
+        <div class="col content-col">
+            <h1 class="font-color">UPCOMING TOURS & DESTINATION</h1>
+            <div class="line"></div>
+            <p>
+                Kalash Festivals
+                <br />
+
+                Joshi Spring Festival (May 13-16)
+
+                <br /> <br />
+
+                Shandur polo Festival (July 7-9)
+                <br />
+                and many more ......
+            </p>
+            <a href="#" class="ctn">Learn more</a>
+        </div>
+        <div class="image-col">
+            <div class="image-gallery">
+                <img src="~/img/a10.jpg" alt="" />
+                <img src="~/img/a11.jpg" alt="" />
+                <img src="~/img/a13.jpg" alt="" />
+                <img src="~/img/a12.jpg" alt="" />
+            </div>
+        </div>
+    </div>
+    <br /><br /><br /><br />
+</section>
+<!--tours-->
+<!-- About -->
+<section id="about">
+    <div class="title">
+        <h1 class="font-color">About Us</h1>
+        <div class="line"></div>
+    </div>
+    <br />
+    <div id="about_us">
+        <div class="boxx">
+            <div class="containerx">
+                <input type="radio" name="slider" id="item-1" checked />
+                <input type="radio" name="slider" id="item-2" />
+                <input type="radio" name="slider" id="item-3" />
+                <div class="cards">
+                    <label class="cardt" for="item-1" id="col-img-1">
+                        <img src="~/img/Bilal.jpg" />
+                    </label>
+                    <label class="cardt" for="item-2" id="col-img-2">
+                        <img src="~/img/a16.jpg" />
+                    </label>
+                    <label class="cardt" for="item-3" id="col-img-3">
+                        <img src="~/img/a17.webp" />
+                    </label>
+
+                </div>
+            </div>
+            <span id="about-quad">
+                <a href="#home">
+                    <center>
+                        <h1 style="
+                                        font-family: var(--ff-montserrat);
+                                        color: white;
+                                    ">
+                            Find that
+                        </h1>
+                        <br />
+                        <img class="img2"
+                             src="~/img/mountain_dark.jpg"
+                             width="200"
+                             style="border-radius: 12%" />
+                        <br />
+                        <h1 class="logo" style="font-size: 50px">
+                            TOURISM
+                        </h1>
+                    </center>
+                </a>
+            </span>
+        </div>
+    </div>
+</section>
+<!-- About -->
+<!-- Contributions -->
+        </section>
+<!-- Contributions -->
+<!-- contact -->
+<section id="contact">
+    <div class="title">
+        <h1 class="font-color">Contact Us</h1>
+        <div class="line"></div>
+    </div>
+    <div class="contact_us">
+        <form class="cform" asp-controller="Home" asp-action="saveMessage" method="post">
+            <div class="crow-message">
+                <h1 class="color">Send us a message</h1>
+                <div></div>
+            </div>
+            <div class="crow-in">
+                <input type="text"
+                       id="name"
+                       name="name"
+                       placeholder="Your name" />
+                <input type="text"
+                       id="email"
+                       name="email"
+                       placeholder="Your Email id" />
+            </div>
+            <div class="crow">
+                <div class="ccol-left">
+                    <select name="country" id="country">
+                        <option value="Pakistan">Pakistan</option>
+                        <option value="Russia">Russia</option>
+                        <option value="usa">USA</option>
+                        <option value="Japan">Japan</option>
+                        <option value="France">France</option>
+                        <option value="Brazil">Brazil</option>
+                    </select>
+                </div>
+            </div>
+            <div class="crow">
+                <div class="ccol-left">
+                    <textarea type="text"
+                              id="remarks"
+                              name="remarks"
+                              placeholder="Your Remarks....."
+                              style="height: 150px"></textarea>
+                </div>
+            </div>
+            <input class="crow-s" type="submit" value="Submit" />
+        </form>
+        <div class="cbox">
+            <div>
+                <p class="cbox-message">
+                    Prefer some other way ?<br />Reach us by using the
+                    details given below
+                </p>
+                <div class="cbox-line"></div>
+            </div>
+            <div class="c_boxx">
+                <a href="wajahatnawazwww@gmail.com">
+                    <i class="fa fa-envelope"></i>
+                    Mail: tourism@northernpakistan.com
+                </a>
+            </div>
+            <div class="c_boxx">
+                <a href="tel:+92-3419322409">
+                    <i class="fa fa-phone"></i>
+                    Phone: (+92) 3419322409
+                </a>
+            </div>
+            <div class="c_boxx">
+                <a href="#">
+                    <i class="fa fa-map-marker"></i>
+                    Location: Northern area of Pakistan
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<i class="arrow" onclick="topFunction()" id="upbtn"></i>
+
+<section class="footer">
+    <span>Created By Wajahat Nawaz and Muhammad Saddat | 2024 </span>
+    <div class="social">
+        <li>
+            <a href="https://github.com//"
+               target="_blank"
+               rel="noreferrer">
+                <i class="fa fa-globe"></i>
+            </a>
+            <a href="https://github.com/dashboard"
+               target="_blank"
+               rel="noreferrer">
+                <i class="fa fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/wajahat-nawaz//"
+               target="_blank"
+               rel="noreferrer">
+                <i class="fa fa-linkedin-square"></i>
+            </a>
+        </li>
+    </div>
+</section>
+<!--footer-->
+
+<script>
+    const menuBtn = document.querySelector(".menu-btn");
+    const navlinks = document.querySelector(".nav-links");
+
+    menuBtn.addEventListener("click", () => {
+        navlinks.classList.toggle("mobile-menu");
+    });
+</script>

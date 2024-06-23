@@ -1,0 +1,68 @@
+﻿  @inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+<nav class="navbar glass" style="height: 100px">
+            <span
+                ><a href="#home" style="display: flex; align-items: center"
+                    ><img
+                        class="img2"
+                 src="~/img/mountain.png"
+                        width="90"
+                        style="margin: -25px -10px -25px -20px"
+                    />
+                    <h1 class="logo">TOURISM</h1></a
+                ></span
+            >
+            <ul class="nav-links">
+                <li>
+            <a href="/Home/Index#home" id="pri" class="active cir_border">Home</a>
+
+                </li>
+        <li><a href="/Home/Index#events" id="sec" class="cir_border">Events</a></li>
+                <li>
+            <a href="/Home/Index#explore" id="tri" class="cir_border">Explore</a>
+                </li>
+                <li>
+            <a href="/Home/Index#tours" id="quad" class="cir_border">Tours</a>
+                </li>
+        <li><a href="/Home/Index#about" id="quint" class="cir_border">Travel Guides</a></li>
+                
+                <li>
+            <a href="/Home/Index#contribution" id="hex" class="cir_border">About</a
+                    >
+                </li>
+                <li>
+            <a href="/Home/Index#contact" id="hept" class="cir_border">Contact</a>
+                </li>
+                <li>
+                    <div>
+                        <input
+                            type="checkbox"
+                            class="checkbox dark"
+                            id="checkbox"
+                        />
+                        <label for="checkbox" class="label">
+                            <i class="fa fa-moon-o"></i>
+                            <i class="fa fa-sun-o"></i>
+                            <div class="ball"></div>
+                        </label>
+                    </div>
+                </li>
+        <li>
+            @{
+                var httpContext = HttpContextAccessor.HttpContext;
+                var user = httpContext.Session.GetString("UserName");
+                if (!string.IsNullOrEmpty(user))
+                {
+                    <p>@user</p>
+                    <a href="../User/logout" class="cir_border">Logout</a>
+                }
+                else
+                {
+                    <a href="../User/signup" class="cir_border">Sign Up / Login</a>
+                }
+            }
+        </li>
+            </ul>
+            
+        </nav>
+        <!--navbar-->
+

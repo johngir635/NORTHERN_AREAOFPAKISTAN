@@ -1,0 +1,41 @@
+ .tours h1{
+    color: #1a3447;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.tourimg img:hover
+{
+    box-shadow:0px 8px 12px#96b6c1;
+    transform:scale(1.25)
+}
+.hunza,
+.naran,
+.neelum,
+.swat
+{
+    padding: 13px;
+    margin:10px;
+    padding-top: 0px;
+    display: inline-block;
+    text-align: center;
+    box-shadow: 2px 2px 2px #d4d7d8;
+    
+}
+.tourimg a:link {
+    font-size: larger;
+    color: #226430d4;
+    text-decoration: none;
+
+}
+.tourimg a:hover{
+    font-size: larger;
+    color: #cd7c1ad4;
+    text-decoration: none;
+
+}
+
+.tourimg a:visited {
+    font-size: larger;
+    color:#1a478b ;
+}
